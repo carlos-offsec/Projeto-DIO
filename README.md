@@ -1,4 +1,3 @@
-
 # Relatório de Teste de Invasão
 
 ## Introdução
@@ -108,3 +107,15 @@ A imagem a seguir mostra o login bem-sucedido na aplicação.
 O teste de invasão demonstrou com sucesso a presença de múltiplas vulnerabilidades críticas no ambiente alvo. A utilização de senhas fracas permitiu o acesso não autorizado a todos os serviços testados (FTP, SMB e a aplicação web).
 
 Este projeto serve como um exemplo prático de como as ferramentas de segurança podem ser utilizadas para identificar e explorar fraquezas em sistemas, reforçando a importância de políticas de senhas fortes e da configuração segura de serviços de rede.
+
+## Recomendações de Segurança
+
+Depois de ver como foi fácil invadir esses sistemas, aqui vão algumas dicas para não passar pelo mesmo perrengue:
+
+- **Crie senhas mais espertas:** Em vez de "123456" ou "password", que tal usar uma frase que só você conhece? Misture letras maiúsculas, minúsculas, números e símbolos. Quanto mais longa e maluca, melhor!
+
+- **Não use a mesma senha para tudo:** A gente sabe que é um saco ter que lembrar de várias senhas, mas se um serviço for invadido, os outros continuam seguros. Use um gerenciador de senhas para te ajudar nessa missão.
+
+- **Cuidado com serviços abertos para a internet:** Deixar serviços como FTP e SMB abertos para qualquer um ver é como deixar a porta de casa aberta. Se você não precisa que eles estejam na internet, simplesmente desative.
+
+- **Mantenha tudo atualizado:** Programas e sistemas desatualizados são um prato cheio para hackers. Ative as atualizações automáticas sempre que possível.
