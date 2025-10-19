@@ -74,7 +74,7 @@ A imagem a seguir comprova o acesso bem-sucedido ao serviço FTP.
 
 **Comando:**
 ```bash
-medusa -h <endereço_ip> -U wordlist_users.txt -P wordlist_passwords.txt -M smbnt
+medusa -h <endereço_ip> -U users.txt -P senhas_spray.txt -M smbnt -t 2 -T 50
 ```
 
 **Resultados:**
